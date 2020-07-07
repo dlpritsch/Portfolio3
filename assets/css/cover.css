@@ -1,0 +1,199 @@
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none;
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+
+
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  text-shadow: none;
+  box-shadow: none;
+  background: url("../img/computer-background.jpg");
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;}
+}
+
+
+.cover-container {
+  max-width: 42em;
+}
+
+
+
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+  color: #fff;
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+
+
+.cover {
+  padding: 0 1.5rem;
+  margin: 288px 0 135px 0;
+}
+
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+}
+
+
+.selfie{
+  width: 200px;
+  height: auto;
+}
+
+
+#about,
+#portfolio,
+#contact{
+  margin-bottom: 135px;
+}
+
+.about-block{
+ margin: 40px 0;
+}
+
+
+
+.box-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box{
+  height: 400px;
+  width: 400px;
+  background-color: #333333;
+  margin: 10px;
+}
+
+.box img{
+  height: auto;
+  width: 400px;
+  overflow: hidden;
+}
+
+.box a:hover{
+  opacity: 0.5;
+  transition: ease 0.8s;
+}
+
+.skill-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skill{
+  height: 200px;
+  width: 200px;
+  background-color: #333333;
+  margin: 10px;
+}
+
+.skill img{
+  height: 200px;
+  width: 200px;
+}
+
+@media (max-width: 400px){
+  .box img{
+    height: auto;
+    width: 300px;
+  }
+}
+
+
+@media (max-width: 1680px){
+  .cover{
+    margin: 288px 0 135px 0;
+  }
+}
+
+.git{
+  margin: 30px 0 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.devicon-github-plain-wordmark{
+   font-size: 95px;
+}
+
+.envelope{
+  width: 58px;
+  height: auto;
+
+}
+
+.linkedin{
+  width: 58px;
+}
+
